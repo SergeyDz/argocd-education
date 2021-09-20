@@ -15,7 +15,7 @@ spec:
   source:
     path: apps
     repoURL: https://github.com/SergeyDz/argocd-education
-    targetRevision: main
+    targetRevision: feature/prometheus-fix-1
     directory:
       recurse: true
   syncPolicy:
