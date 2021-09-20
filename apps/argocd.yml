@@ -13,7 +13,7 @@ spec:
   source:
     path: .
     repoURL: https://github.com/SergeyDz/argocd-education
-    targetRevision: HEAD
+    targetRevision: feature/force-grafana-fix
   syncPolicy:
     automated: 
       prune: true
