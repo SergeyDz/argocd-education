@@ -15,7 +15,7 @@ spec:
   source:
     path: apps
     repoURL: https://github.com/SergeyDz/argocd-education
-    targetRevision: main
+    targetRevision: feature/windows-desktop
     directory:
       recurse: true
   syncPolicy:
