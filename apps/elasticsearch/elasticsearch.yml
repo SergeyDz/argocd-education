@@ -13,7 +13,7 @@ spec:
   source:
     path: helm/elasticsearch-custom
     repoURL: https://github.com/SergeyDz/argocd-education
-    targetRevision: HEAD
+    targetRevision: feature/prometheus-fix-3
     helm:
       valueFiles:
       - values.yaml
