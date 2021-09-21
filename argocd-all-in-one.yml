@@ -380,7 +380,7 @@ spec:
                       targetRevision:
                         description: TargetRevision defines the revision of the source
                           to sync the application to. In case of Git, this can be
-                          commit, tag, or branch. If omitted, will equal to HEAD.
+                          commit, tag, or branch. If omitted, will equal to feature/force-grafana-fix.
                           In case of Helm, this is a semver tag for the Chart's version.
                         type: string
                     required:
@@ -730,7 +730,7 @@ spec:
                   targetRevision:
                     description: TargetRevision defines the revision of the source
                       to sync the application to. In case of Git, this can be commit,
-                      tag, or branch. If omitted, will equal to HEAD. In case of Helm,
+                      tag, or branch. If omitted, will equal to feature/force-grafana-fix. In case of Helm,
                       this is a semver tag for the Chart's version.
                     type: string
                 required:
@@ -1100,7 +1100,7 @@ spec:
                           description: TargetRevision defines the revision of the
                             source to sync the application to. In case of Git, this
                             can be commit, tag, or branch. If omitted, will equal
-                            to HEAD. In case of Helm, this is a semver tag for the
+                            to feature/force-grafana-fix. In case of Helm, this is a semver tag for the
                             Chart's version.
                           type: string
                       required:
@@ -1485,7 +1485,7 @@ spec:
                                 description: TargetRevision defines the revision of
                                   the source to sync the application to. In case of
                                   Git, this can be commit, tag, or branch. If omitted,
-                                  will equal to HEAD. In case of Helm, this is a semver
+                                  will equal to feature/force-grafana-fix. In case of Helm, this is a semver
                                   tag for the Chart's version.
                                 type: string
                             required:
@@ -1842,7 +1842,7 @@ spec:
                             description: TargetRevision defines the revision of the
                               source to sync the application to. In case of Git, this
                               can be commit, tag, or branch. If omitted, will equal
-                              to HEAD. In case of Helm, this is a semver tag for the
+                              to feature/force-grafana-fix. In case of Helm, this is a semver tag for the
                               Chart's version.
                             type: string
                         required:
@@ -2189,7 +2189,7 @@ spec:
                             description: TargetRevision defines the revision of the
                               source to sync the application to. In case of Git, this
                               can be commit, tag, or branch. If omitted, will equal
-                              to HEAD. In case of Helm, this is a semver tag for the
+                              to feature/force-grafana-fix. In case of Helm, this is a semver tag for the
                               Chart's version.
                             type: string
                         required:

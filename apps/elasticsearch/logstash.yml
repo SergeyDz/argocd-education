@@ -13,7 +13,7 @@ spec:
   source:
     path: helm/logstash-custom
     repoURL: https://github.com/SergeyDz/argocd-education
-    targetRevision: HEAD
+    targetRevision: feature/force-grafana-fix
     helm:
       valueFiles:
       - values.yaml
