@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: oci://registry-1.docker.io/bitnamicharts
+    repoURL: registry-1.docker.io/bitnamicharts # do not use oci:// here-it will not work
     targetRevision: 14.1.6
     chart: postgresql
     helm:
