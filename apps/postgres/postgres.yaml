@@ -11,9 +11,8 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: 'https://registry-1.docker.io/bitnamicharts'
+    repoURL: 'oci://registry-1.docker.io/bitnamicharts/postgresql'
     targetRevision: 16.2.0
-    chart: postgresql
     helm:
       valueFiles:
         - values.yaml
