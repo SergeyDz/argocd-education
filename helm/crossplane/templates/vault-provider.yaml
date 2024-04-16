@@ -10,3 +10,5 @@ metadata:
     vault.hashicorp.com/agent-run-as-user: "65532"
 spec:
   package: xpkg.upbound.io/upbound/provider-vault:v0.4.0
+  runtimeConfigRef:
+    name: vault-provider-deployment-runtime-config
