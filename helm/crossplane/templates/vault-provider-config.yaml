@@ -8,5 +8,5 @@ spec:
     secretRef:
       key: credentials
       name: vault-creds
-      namespace: vault-system
+      namespace: crossplane-system
     source: Secret
