@@ -2,8 +2,11 @@ apiVersion: pkg.crossplane.io/v1
 kind: Provider
 metadata:
   name: provider-vault
-  namespace: {{ .Release.Namespace }}
   annotations:
     argocd.argoproj.io/sync-wave: "-5"
+    vault.hashicorp.com/agent-inject: "true"
+    vault.hashicorp.com/agent-inject-token: "true"
+    vault.hashicorp.com/role: crossplane
+    vault.hashicorp.com/agent-run-as-user: "65532"
 spec:
   package: xpkg.upbound.io/upbound/provider-vault:v0.4.0
