@@ -1,0 +1,16 @@
+apiVersion: vault.vault.upbound.io/v1alpha1
+kind: Mount
+metadata:
+  annotations:
+    meta.upbound.io/example-id: kv/v1alpha1/secretv2
+  labels:
+    testing.upbound.io/example-name: vault-creds
+  name: vault-creds-kv2
+  namespace: default
+spec:
+  deletionPolicy: Delete
+  forProvider:
+    path: "secret"
+    type: "kv-v2"
+  providerConfigRef:
+    name: vault-provider-config
