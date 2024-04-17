@@ -5,10 +5,10 @@ metadata:
 spec:
   address: http://vault.vault-system:8200
   credentials:
-    env: 
-      name: VAULT_TOKEN
-    # secretRef:
-    #   key: credentials
-    #   name: vault-creds
-    #   namespace: crossplane-system
+    # env: 
+    #   name: VAULT_TOKEN
+    secretRef:
+      key: credentials
+      name: vault-creds
+      namespace: crossplane-system
     source: Secret
