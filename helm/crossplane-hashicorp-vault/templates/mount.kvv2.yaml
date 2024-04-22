@@ -6,7 +6,7 @@ metadata:
 spec:
   deletionPolicy: Delete
   forProvider:
-    path: "secret"
+    path: "secret/kapp"
     type: "kv-v2"
   providerConfigRef:
     name: vault-provider-config
